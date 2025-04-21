@@ -1,0 +1,31 @@
+.nav-request {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #c0c0c0;
+    align-items: center;
+}
+
+.nav-request .menu {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+
+}
+
+.nav-request .admin-h2 {
+    font-size: clamp(0.9em, 10vw, 1em);
+    margin-right: auto;
+    margin-left: 1em;
+}
+
+.nav-request .admin-logout {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+}

@@ -1,0 +1,20 @@
+.sidebar {
+    background-color: lightblue;
+    min-height: 100vh;
+    padding:2em 1em;
+    text-align: center;
+    transition: 300ms ease-in-out;
+}
+.sidebar-links {
+    margin-top: 1em;
+}
+
+.sidebar-link {
+    text-align: center;
+    text-decoration: none;
+}
+
+.sidebar-link p {
+    padding: 1em 0;
+    font-size: clamp(18px, 10vw, 20px);
+}

@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-request2 {
+    display: flex;
+}
+/* Container */
+.donors-request {
+    background: white;
+    padding: 0 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow: auto;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    color: #d32f2f;
+    margin: 0.4em
+}
+
+/* Search Filters */
+.search-filters-request {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Search Button */
+.search-btn {
+    background-color: #6e45e2;
+    color: white;
+    border: none;
+    padding: 0.6em 1em;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #5a3bb5;
+}
+
+/* Table */
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    height: 100%;
+}
+
+.request th,
+.request td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    height: 100%;
+}
+
+.request th {
+    background-color: hsl(256, 73%, 58%);
+    color: white;
+    text-align: center;
+}
+
+/* .request td:last-child {
+} */
+
+.request tr:hover {
+    background-color: #f1f1f1;
+}
+
+.request-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.check-btn {
+    border: none;
+    padding: 0.2em 0.4em;
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.xmark-btn {
+    border: none;
+    padding: 0.2em 0.4em;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    input,
+    select {
+        width: 100%;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+}

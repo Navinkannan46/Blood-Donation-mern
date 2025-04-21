@@ -1,0 +1,83 @@
+/* Container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 550px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 3em auto;
+}
+
+/* Title */
+.title {
+    color: #d32f2f;
+    margin-bottom: 15px;
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    color: #333;
+    font-weight: 500;
+
+    margin-bottom: 5px;
+}
+
+/* Input & Select Fields */
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Grid Layout for Two Columns */
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #6e45e2;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #5a3bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}

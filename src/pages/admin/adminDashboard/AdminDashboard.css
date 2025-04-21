@@ -1,0 +1,60 @@
+.flex-dashboard {
+    display: flex;
+}
+.hero{
+    width: 100%;
+}
+.flex-admin {
+    display: flex;
+    align-content: start;
+    gap: 1em;
+    padding: 1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.box {
+    width: 290px;
+    background-color: #a0aeff;
+    height: 140px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.box h2 {
+    font-size: 2rem;
+
+}
+
+.box p {
+    font-size: 2.3rem;
+    padding: 0;
+}
+
+@media (max-width:924px) {
+    .box {
+        width: 200px;
+        height: 100px;
+    }
+
+    .box h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .box p {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width:675px) {
+    .flex-admin {
+        flex-direction: column;
+    }
+}
