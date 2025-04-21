@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import './component.css'
+import './Component.css'
 import { loginAPI } from '../services/allAPI'
 
 const Login = () => {

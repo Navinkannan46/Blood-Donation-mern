@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import './component.css'
+import './Component.css'
 import { registerAPI } from '../services/allAPI'
 
 const Register = () => {
